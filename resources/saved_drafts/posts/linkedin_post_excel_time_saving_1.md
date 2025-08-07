@@ -1,0 +1,1 @@
+{ "content_type": "social media post", "topic": "Excel Automation", "target_audience": "SMEs", "tags": ["AI", "Excel", "Automation", "SME"], "content": "Are you tired of spending hours on repetitive Excel tasks? Our AI-powered automation tool can help you reclaim valuable time. #ExcelAutomation #AI #SME" }

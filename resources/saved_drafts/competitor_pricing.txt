@@ -1,0 +1,9 @@
+Competitor Pricing:
+
+*   **GPTExcel:**
+    *   Free plan available with limited features.
+    *   Pro plan: $6.99/month or $62.91/year.
+*   **Ajelix:**
+    *   Free plan with 5-10 requests per month.
+    *   Paid plans start at $5.95/month for unlimited requests.
+    *   Other plans: $9.99/month (Starter), $29.99/month (Standard), $79.99/month (Professional), $179.99/month (Enterprise).

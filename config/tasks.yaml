@@ -1,0 +1,131 @@
+market_research:
+  description: >
+    Conduct market research to identify trends, opportunities, and challenges in the industry. Focus on understanding customer needs, competitor strategies, and market dynamics to inform marketing decisions.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+    <Budget>{budget}</Budget>
+
+    Current date: {current_date}
+
+  expected_output: >
+    A comprehensive market research report that includes:
+    - Analysis of market trends and opportunities
+    - Competitor analysis
+    - Customer insights and needs
+    - Recommendations for marketing strategies
+
+prepare_marketing_strategy:
+  description: >
+    Develop a marketing strategy that aligns with the company's goals and objectives. The strategy should include target audience segmentation, positioning, messaging, and marketing channels.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+
+    Current date: {current_date}
+    Refer to the market research report for insights and building the strategy.
+
+  expected_output: >
+    A detailed marketing strategy document that includes:
+    - Target audience segmentation
+    - Required budget
+    - Recommended marketing channels
+    - Plan of action for the week containing 3 blogs to write, 2 reels to film, and 5 social media posts to create
+    - Key performance indicators (KPIs) to measure success
+    Store the marketing strategy in 'resources/drafts/marketing_strategy.md'.
+
+create_content_calendar:
+  description: >
+    Create a content calendar that outlines the topics, formats, and publishing schedule for the next one week. The calendar should align with the marketing strategy and include key themes and campaigns.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+
+    Current date: {current_date}
+
+  expected_output: >
+    A content calendar that includes:
+    - Topics and formats for each piece of content specified in the marketing strategy
+    - Publishing schedule
+    - Key themes and campaigns
+    Store the content calendar in 'resources/drafts/content_calendar.md'.
+
+prepare_post_drafts:
+  description: >
+    Prepare drafts for social media posts and email campaigns based on the content calendar. Ensure that the drafts are engaging, aligned with the brand voice, and optimized for each platform.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+
+    Current date: {current_date}
+
+  expected_output: >
+    Drafts for:
+    - Social media posts: LinkedIn, Twitter, Instagram
+    - Email campaigns
+    Each draft should be ready for review and feedback. Save the drafts in 'resources/drafts/posts/' folder in markdown format.
+
+prepare_scripts_for_reels:
+  description: >
+    Prepare scripts for Instagram reels that align with the content calendar and marketing strategy. The scripts should be engaging, concise, and tailored to the target audience.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+
+    Current date: {current_date}
+
+  expected_output: >
+    Scripts for Instagram reels that include:
+    - Engaging hooks
+    - Key messages
+    - Call to action
+    Each script should be ready for filming and editing. Save the scripts in 'resources/drafts/reels/' folder in markdown format. And assign tasks to the relevant team members.
+
+content_research_for_blogs:
+  description: >
+    Conduct research for blog topics that align with the content calendar and marketing strategy. The research should include keyword analysis, competitor blogs, and industry trends.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+
+    Current date: {current_date}
+
+  expected_output: >
+    A research report that includes:
+    - Keyword analysis
+    - Competitor blog insights
+    - Industry trends
+    - Suggested blog topics and outlines
+
+draft_blogs:
+  description: >
+    Draft blogs based on the research report and content calendar. Each blog should be well-structured, engaging, and optimized for SEO.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+
+    Current date: {current_date}
+
+  expected_output: >
+    Drafts for blogs that include:
+    - Engaging introductions
+    - Well-structured content
+    - SEO optimization
+    - Ready for review and feedback
+    Each draft should be ready for review and saved in 'resources/drafts/blogs/' folder in markdown format.
+
+seo_optimization:
+  description: >
+    Optimize the drafted blogs for search engines to improve visibility and drive organic traffic. This includes keyword optimization, meta tags, and internal linking.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+
+    Current date: {current_date}
+
+  expected_output: >
+    SEO-optimized blogs that include:
+    - Keyword-rich titles and headings
+    - Meta descriptions
+    - Internal links
+    - Ready for final review and publication

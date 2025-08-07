@@ -1,0 +1,1 @@
+{ "content_type": "social media post", "topic": "AI in Excel", "target_audience": "SMEs", "tags": ["AI", "Excel", "Automation", "SME", "AIinExcel", "ExcelAutomation"], "content": "Tired of manual Excel tasks? AI can help! Check out our blog for 5 ways to automate your data analysis: [Link] #AIinExcel #ExcelAutomation #SME" }

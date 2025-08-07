@@ -1,0 +1,1 @@
+{ "content_type": "social media post", "topic": "Excel Automation", "target_audience": "SMEs", "tags": ["Excel", "Automation", "SME", "AIinExcel", "ExcelAutomation"], "content": "Say goodbye to data entry errors with our AI-powered Excel automation tool. Improve accuracy and efficiency today! #Excel #AI #Automation" }
