@@ -5,6 +5,7 @@ from crewai.project import CrewBase, agent, crew, task
 from crewai_tools import SerperDevTool, ScrapeWebsiteTool, DirectoryReadTool, FileWriterTool, FileReadTool
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
+import os
 
 _ = load_dotenv()
 llm = LLM(
@@ -121,14 +122,14 @@ class TheMarketingCrew():
     def create_content_calendar(self) -> Task:
         return Task(
             config=self.tasks_config['create_content_calendar'],
-agent=self.content_creator_social_media()
+            agent=self.content_creator_social_media()
         )
 
     @task
     def prepare_post_drafts(self) -> Task:
         return Task(
             config=self.tasks_config['prepare_post_drafts'],
-            agent=self.content_creator_social_media()
+            agent=self.content_creator_social_media(),
             output_json=Content
         )
 
@@ -136,7 +137,7 @@ agent=self.content_creator_social_media()
     def prepare_scripts_for_reels(self) -> Task:
         return Task(
             config=self.tasks_config['prepare_scripts_for_reels'],
-agent=self.content_creator_social_media()
+            agent=self.content_creator_social_media(),
             output_json=Content
         )
 
@@ -144,7 +145,7 @@ agent=self.content_creator_social_media()
     def content_research_for_blogs(self) -> Task:
         return Task(
             config=self.tasks_config['content_research_for_blogs'],
-agent=self.content_creator_social_media()
+            agent=self.content_creator_social_media()
         )
 
     @task
